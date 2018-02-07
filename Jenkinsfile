@@ -24,5 +24,11 @@ pipeline {
                 sh './gradlew test'
             }
         }
+        
+        stage('Docker') {
+            steps{
+                sh './genImages.sh'
+            }
+        }
     }
 }
