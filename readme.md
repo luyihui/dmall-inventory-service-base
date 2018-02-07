@@ -3,7 +3,7 @@
 ## 一，安装docker
 
 http://www.runoob.com/docker/windows-docker-install.html
-
+///////////
 
 ## 二，安装kubectl
 #### for mac
